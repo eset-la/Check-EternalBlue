@@ -24,10 +24,10 @@ CreateObject("WScript.Shell").Popup "Fetching list of installed KBs" & vbcrlf & 
 WshShell.Run "cmd /c wmic qfe list | clip", 0, True
 
 For Each kb In KBList
-	If InStr(CreateObject("htmlfile").ParentWindow.ClipboardData.GetData("text"), "KB" + kb) = 0 Then
+	If InStr(CreateObject("htmlfile").ParentWindow.ClipboardData.GetData("text"), "KB" + kb) > 0 Then
 		MsgBox("Your computer is patched against EternalBlue (KB" + kb + ")")
 		WScript.Quit
 	End If
 Next
 
-MsgBox("Your computer is NOT patched agaist EternalBlue")
+MsgBox("Your computer is NOT patched against EternalBlue")
