@@ -60,6 +60,7 @@ KBList.Add "4019473"
 '	Cumulative Update for Windows 10 Version 1607 (KB4016635)
 '
 
+KBList.Add "4019472"
 KBList.Add "4015217"
 KBList.Add "4015438"
 KBList.Add "4016635"
