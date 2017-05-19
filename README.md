@@ -1,7 +1,12 @@
 # Check-EternalBlue
 Check if your computer is patched against EternalBlue.
 
-*IMPORTANT*: EternalBlue is used as a propagation mechanism. Patching the system does not mean that it is protected against the encryption routine. It only means that the system is protected against the "wormness" of recent WannaCry's variant.
+>  **IMPORTANT**  
+> Windows rollout model needs constant update of checked KBs list due to KB superseding.  
+> Now a new [ESET's tool](https://help.eset.com/eset_tools/ESETEternalBlueChecker.exe) to verify the security state of the computer is out.  
+> Therefore, the KB list will no longer be updated.  
+
+EternalBlue is used as a propagation mechanism. Patching the system does not mean that it is protected against the encryption routine. It only means that the system is protected against the "wormness" of recent WannaCry's variant.
 
 Learn more:
 
